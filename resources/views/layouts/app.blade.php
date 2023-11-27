@@ -87,7 +87,7 @@
 
     <footer class="site-footer bg-light">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-around">
                 <div class="col-lg-4">
                     <div class="mb-5">
                         <h3 class="footer-heading mb-4">Lokasi</h3>
@@ -107,10 +107,9 @@
                             Email: itdel.himasti@gmail.com
                         </p>
                     </div>
-
                 </div>
-
-                <div class="col-lg-4 mb-3 mb-lg-0">
+                {{-- mb-lg-0 --}}
+                <div class="col-lg-4 mb-3">
                     <div class="mb-5">
                         <h3 class="footer-heading mb-4">Tentang Himasti</h3>
                         <p>

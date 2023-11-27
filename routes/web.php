@@ -28,6 +28,3 @@ Route::get('/kepengurusan', function () {
 Route::get('/kegiatan', function () {
     return view('app.kegiatan');
 })->name('kegiatan');
-
-
-
