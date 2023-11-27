@@ -42,13 +42,19 @@
                                         class="icon-menu h3"></span></a>
                             </div>
 
-                            <ul class="site-menu active js-clone-nav d-none d-lg-block nav">
-                                <li><a href="{{ route('dashboard') }}">Beranda</a></li>
-                                <li><a href="{{ route('profile') }}">Profile Himpunan</a></li>
-                                <li>
-                                    <a href="{{ route('kepengurusan') }}">Kepengurusan</a>
+                            <ul class="site-menu js-clone-nav d-none d-lg-block nav">
+                                <li class="nav-item">
+                                    <a class="nav-link {{ Request::is('/') ? 'text-white' : '' }}" href="{{ route('dashboard') }}">Beranda</a>
                                 </li>
-                                <li><a href="{{ route('kegiatan') }}">Kegiatan</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link {{ Request::is('profile') ? 'text-white' : '' }}" href="{{ route('profile') }}">Profile Himpunan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link {{ Request::is('kepengurusan') ? 'text-white' : '' }}" href="{{ route('kepengurusan') }}">Kepengurusan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link {{ Request::is('kegiatan') ? 'text-white' : '' }}" href="{{ route('kegiatan') }}">Kegiatan</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -73,12 +79,12 @@
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
                 <a href="https://www.instagram.com/himasti_itdel/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
-                    class="col-2 text-center py-4 social-icon d-block ikonn-sosmed">
+                    class="col-2 text-center py-4 social-icon d-block ikonn-sosmed" target="blank">
                     <span class="icon-instagram text-white"></span>
                 </a>
 
                 <a href="https://youtube.com/@himastiitdel6503?si=HBKKhxjzJBBN3iua"
-                    class="col-2 text-center py-4 social-icon d-block ikonn-sosmed">
+                    class="col-2 text-center py-4 social-icon d-block ikonn-sosmed" target="blank">
                     <span class="icon-youtube text-white"></span>
                 </a>
             </div>
@@ -88,7 +94,7 @@
     <footer class="site-footer bg-light">
         <div class="container">
             <div class="row justify-content-around">
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <div class="mb-5">
                         <h3 class="footer-heading mb-4">Lokasi</h3>
                         <p>
@@ -109,8 +115,8 @@
                     </div>
                 </div>
                 {{-- mb-lg-0 --}}
-                <div class="col-lg-4 mb-3">
-                    <div class="mb-5">
+                <div class="col-lg-5 mb-3">
+                    <div class="mb-5 text-justify">
                         <h3 class="footer-heading mb-4">Tentang Himasti</h3>
                         <p>
                             HIMASTI adalah salah satu himpunan mahasiswa dari tiga himpunan yang berada di Fakultas
@@ -132,7 +138,6 @@
                             document.write(new Date().getFullYear());
                         </script>
                         All rights reserved |
-
                     </p>
                 </div>
             </div>
