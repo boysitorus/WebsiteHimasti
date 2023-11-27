@@ -9,28 +9,20 @@
                 <div class="col-md-7 text-center" data-aos="fade-up" data-aos-delay="400">
                     <h1 class="text-white">About Us</h1>
                     <p class="text-white">Himpunan Mahasiswa Sarjana Informatika</p>
-                    
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="site-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="{{ asset('assets/images/logohimasti.png') }}" alt="Image" class="img-fluid" />
-                </div>
-                <div class="col-lg-6">
-                    <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
-                        <h2 class="mb-5">HIMASTI</h2>
-                        <p>
-                            Himpunan mahasiswa sarjana Informatika (HIMASTI) adalah salah
-                            satu himpunan mahasiswa dari tiga himpunan yang berada di
-                            Fakultas Informatika dan Teknik Elektro pada Institut Teknologi
-                            Del
-                        </p>
-                    </div>
+    <div class="site-section mt-5">
+        <div class="container" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="site-section-heading text-center m-3 w-border col-md-10 mx-auto">
+                    <h2 class="mb-5">HIMASTI</h2>
+                    <p>
+                        Himpunan mahasiswa sarjana Informatika (HIMASTI) adalah salah satu himpunan mahasiswa dari tiga himpunan yang berada di Fakultas Informatika dan Teknik Elektro pada
+                        Institut Teknologi Del.
+                    </p>   
                 </div>
             </div>
         </div>
@@ -38,8 +30,8 @@
 
     <div class="site-section">
         <div class="container" data-aos="fade-up">
-            <div class="row">
-                <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
+            <div class="row justify-content-center">
+                <div class="site-section-heading text-center m-3 w-border col-md-10 mx-auto">
                     <h2 class="mb-5">SEJARAH</h2>
                     <p>
                         Program Studi S1 Teknik Informatika merupakan salah satu dari 3
@@ -54,26 +46,13 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-5"></div>
-
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-5"></div>
-
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-5"></div>
-
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-5"></div>
-
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-5"></div>
-
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-5"></div>
-            </div>
         </div>
     </div>
 
     <div class="site-section">
-        <div class="container">
-            <div class="row">
-                <div class="site-section-heading text-justify mb-5 w-border col-md-6 mx-auto" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="site-section-heading text-center m-3 w-border col-md-10 mx-auto">
                     <h2 class="mb-5">VISI</h2>
                     <p>
                         Menjadi program Teknik Informatika yang unggul yang berperan dalam
@@ -82,11 +61,38 @@
                     </p>
                 </div>
             </div>
-
-            <div class="site-block-retro d-block d-md-flex"></div>
         </div>
     </div>
 
+    <div class="site-section">
+        <div class="container" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="site-section-heading mb-5 text-center m-3 w-border col-md-10 mx-auto" data-aos="fade-up">
+                    <h2 class="mb-5">MISI</h2>
+                    <div class="text-justify">
+                        <ul>
+                            <li>
+                                <p>
+                                    Menyelenggarakan pendidikan teknik informatika yang bermutu, profesional dan diperhitungkan secara nasional.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Menyelenggarakan penelitian yang menghasilkan dan memanfaatkan teknologi untuk mengembangkan potensi lokal.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Melakukan pengabdian kepada masyarakat dalam bidang teknik informatika.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{-- 
     <div class="site-section block-13 bg-light">
         <div class="container" data-aos="fade-up">
             <div class="row">
@@ -109,7 +115,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     
 @endsection
