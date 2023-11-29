@@ -48,6 +48,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ Request::is('profile') ? 'text-white' : '' }}" href="{{ route('profile') }}">Profile Himpunan</a>
+
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ Request::is('kepengurusan') ? 'text-white' : '' }}" href="{{ route('kepengurusan') }}">Kepengurusan</a>
@@ -58,6 +59,7 @@
                                     <li><a href="#">2020</a></li>
                                     <li><a href="#">2019</a></li>
                                 </li>
+
                                 <li class="nav-item">
                                     <a class="nav-link {{ Request::is('kegiatan') ? 'text-white' : '' }}" href="{{ route('kegiatan') }}">Kegiatan</a>
                                 </li>
