@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-8 text-center" data-aos="fade-up" data-aos-delay="400">
-                    <h1 class="mb-4">Himpunan Mahasiswa Sarjana Informatika</h1>
+                    <h1 class="mb-4">Himpunan Mahasiswa Sarjana Informatika(edited)</h1>
                     <p class="mb-5">Institut Teknologi Del</p>
                 </div>
             </div>
