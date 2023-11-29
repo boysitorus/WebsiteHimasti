@@ -48,10 +48,15 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ Request::is('profile') ? 'text-white' : '' }}" href="{{ route('profile') }}">Profile Himpunan</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link {{ Request::is('kepengurusan') ? 'text-white' : '' }}" href="{{ route('kepengurusan') }}">Kepengurusan</a>
-                                </li>
+                                </li>   
+                                <li class="nav-item has-children">
+                                    <a class="nav-link {{ Request::is('kepengurusan') ? 'text-white' : '' }}" href="#">Kepengurusan</a>
+                                    <ul class="dropdown arrow-top">
+                                      <li><a class="py-2" href="{{ route('kepengurusan') }}">Angkatan 2021</a></li>
+                                      <li><a class="py-2" href="{{ route('kepengurusan') }}">Angkatan 2020</a></li>
+                                      <li><a class="py-2" href="{{ route('kepengurusan') }}">Angkatan 2019</a></li>
+                                    </ul>
+                                  </li>
                                 <li class="nav-item">
                                     <a class="nav-link {{ Request::is('kegiatan') ? 'text-white' : '' }}" href="{{ route('kegiatan') }}">Kegiatan</a>
                                 </li>

@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="site-section">
+    <div class="site-section mb-5">
         <div class="container" data-aos="fade-up">
             <div class="row justify-content-center">
                 <div class="site-section-heading mb-5 text-center m-3 w-border col-md-10 mx-auto" data-aos="fade-up">
@@ -92,30 +92,5 @@
             </div>
         </div>
     </div>
-{{-- 
-    <div class="site-section block-13 bg-light">
-        <div class="container" data-aos="fade-up">
-            <div class="row">
-                <div class="site-section-heading text-justify mb-5 w-border col-md-6 mx-auto">
-                    <h2 class="mb-5">MISI</h2>
-                    <p>
-                        <li>
-                            Menyelenggarakan pendidikan teknik informatika yang bermutu,
-                            profesional dan diperhitungkan secara nasional.
-                        </li>
-                        <li>
-                            Menyelenggarakan penelitian yang menghasilkan dan memanfaatkan
-                            teknologi untuk mengembangkan potensi lokal.
-                        </li>
-                        <li>
-                            Melakukan pengabdian kepada masyarakat dalam bidang teknik
-                            informatika.
-                        </li>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-
     
 @endsection
